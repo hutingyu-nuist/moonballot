@@ -69,6 +69,8 @@ pub fn Election::irv(self : Election) -> IrvResult {
       })
       done = true
     } else {
+      let before = active.copy()
+      let before_tallies = pairs(before, tallies)
       let mut low = 0
       for i, score in tallies {
         if score < tallies[low] ||
@@ -78,8 +80,8 @@ pub fn Election::irv(self : Election) -> IrvResult {
       }
       let removed = active.remove(low)
       rounds.push({
-        active: active.copy(),
-        tallies: pairs(active, tallies),
+        active: before,
+        tallies: before_tallies,
         exhausted,
         eliminated: Some(removed),
         winner: None,
