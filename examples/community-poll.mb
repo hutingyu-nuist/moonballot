@@ -1,0 +1,6 @@
+moonballot 1
+candidates: Alice, Bob, Casey
+4: Alice > Bob > Casey
+3: Bob > Casey > Alice
+2: Casey > Alice > Bob
+1:

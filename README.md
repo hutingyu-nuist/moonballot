@@ -33,3 +33,8 @@ moon test --target wasm-gc --deny-warn
 ## Provenance and license
 
 This is an original MoonBit implementation. It depends only on `moonbitlang/core`; no third-party source or test corpus is copied. AI assistance was used for brainstorming, implementation and debugging; the author reviewed the result. MIT license, see `LICENSE`.
+
+## Example
+
+The repository includes `examples/community-poll.mb`, a small offline profile for
+trying the parser and comparing IRV, Borda, plurality and pairwise projections.
