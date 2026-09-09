@@ -54,7 +54,19 @@ pub fn IrvResult::verify(
         detail: "active/tally mismatch",
       })
     }
-    let mut sum = round.exhausted
+    if !contains_all(round.active, election.candidates()) {
+      return Err({
+        code: "transcript.candidates",
+        line: 0,
+        detail: "unknown or missing candidate",
+      })
+    }
+    for pair in round.tallies {
+      if !round.active.contains(pair.0) {
+        return Err({ code: "transcript.tally-name", line: 0, detail: pair.0 })
+      }
+    }
+    let mut sum : Int = round.exhausted
     for pair in round.tallies {
       if pair.1 < 0 {
         return Err({ code: "transcript.negative", line: 0, detail: pair.0 })
@@ -70,4 +82,17 @@ pub fn IrvResult::verify(
     }
   }
   Ok(())
+}
+
+///|
+fn contains_all(names : Array[String], candidates : Array[String]) -> Bool {
+  if names.length() != candidates.length() {
+    return false
+  }
+  for name in names {
+    if !candidates.contains(name) {
+      return false
+    }
+  }
+  true
 }
