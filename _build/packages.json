@@ -1,0 +1,377 @@
+{
+  "source_dir": "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+  "name": "hutingyu-nuist/moonballot",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+      "root": "hutingyu-nuist/moonballot",
+      "rel": "",
+      "files": {
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\ballot_parser.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\copeland.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\irv.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\model.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\pairwise.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_export.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_parser.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\scoring.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\transcript.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\ballot_parser_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\copeland_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\irv_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\model_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\pairwise_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_export_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_parser_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\scoring_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        },
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\transcript_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native",
+            "LLVM"
+          ],
+          "optlevel": [
+            "Release",
+            "Debug"
+          ]
+        }
+      },
+      "mbt-md-files": {},
+      "deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\42673\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "wbtest-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\42673\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "test-deps": [
+        {
+          "path": "moonbitlang/core/prelude",
+          "alias": "prelude",
+          "fspath": "C:\\Users\\42673\\.moon\\lib\\core\\prelude"
+        }
+      ],
+      "artifact": "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\moonballot.mi",
+      "check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\ballot_parser.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\copeland.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\irv.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\model.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\pairwise.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_export.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_parser.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\scoring.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\transcript.mbt",
+        "-w",
+        "@a",
+        "-o",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\moonballot.mi",
+        "-pkg",
+        "hutingyu-nuist/moonballot",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\42673\\.moon\\lib\\core\\_build\\wasm-gc\\release\\bundle",
+        "-i",
+        "C:\\Users\\42673\\.moon\\lib\\core\\_build\\wasm-gc\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-pkg-sources",
+        "hutingyu-nuist/moonballot:C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+        "-target",
+        "wasm-gc",
+        "-workspace-path",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+        "-all-pkgs",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\all_pkgs.json"
+      ],
+      "wbtest-check-command": null,
+      "test-check-command": [
+        "check",
+        "-error-format",
+        "json",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\ballot_parser_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\copeland_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\irv_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\model_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\pairwise_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_export_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_parser_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\scoring_test.mbt",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\transcript_test.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\ballot_parser.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\copeland.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\irv.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\model.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\pairwise.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_export.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\profile_parser.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\scoring.mbt",
+        "-doctest-only",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\transcript.mbt",
+        "-include-doctests",
+        "-w",
+        "@a",
+        "-o",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\moonballot.blackbox_test.mi",
+        "-pkg",
+        "hutingyu-nuist/moonballot_blackbox_test",
+        "-pkg-type",
+        "library",
+        "-std-path",
+        "C:\\Users\\42673\\.moon\\lib\\core\\_build\\wasm-gc\\release\\bundle",
+        "-i",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\moonballot.mi:moonballot",
+        "-i",
+        "C:\\Users\\42673\\.moon\\lib\\core\\_build\\wasm-gc\\release\\bundle\\prelude\\prelude.mi:prelude",
+        "-pkg-sources",
+        "hutingyu-nuist/moonballot_blackbox_test:C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+        "-target",
+        "wasm-gc",
+        "-blackbox-test",
+        "-workspace-path",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot",
+        "-all-pkgs",
+        "C:\\Users\\42673\\Desktop\\工作区\\随用随清\\moonballot\\_build\\wasm-gc\\debug\\check\\all_pkgs.json"
+      ],
+      "supported-targets": [
+        "Wasm",
+        "WasmGC",
+        "Js",
+        "Native",
+        "LLVM"
+      ]
+    }
+  ],
+  "deps": [],
+  "backend": "wasm-gc",
+  "opt_level": "debug",
+  "source": null
+}

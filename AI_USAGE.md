@@ -1,1 +1,0 @@
-# AI usage and provenance`n`nAI assistance was used for ideation, implementation, test design, debugging and documentation. The participant reviewed correctness, maintainability, security, licensing and competition compliance. No private data or unknown third-party source is included.
