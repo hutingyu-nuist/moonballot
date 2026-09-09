@@ -13,4 +13,3 @@ preferred_target = "wasm-gc"
 description = "Offline ranked-ballot tabulation with independently verified IRV transcripts"
 
 repository = "https://github.com/hutingyu-nuist/moonballot"
-
