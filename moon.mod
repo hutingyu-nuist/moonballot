@@ -1,4 +1,4 @@
-name = "local/moonballot"
+name = "hutingyu-nuist/moonballot"
 
 version = "0.1.0"
 
