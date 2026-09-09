@@ -1,0 +1,5 @@
+_build/
+target/
+.mooncakes/
+docs/competition/evidence/*.html
+*.application.md
