@@ -15,3 +15,11 @@ test "condorcet winner beats every rival" {
   let e = @moonballot.Election::new(["A", "B", "C"], [a, b]).unwrap()
   assert_eq(e.condorcet_winner(), Some("A"))
 }
+
+///|
+test "pairwise ignores unranked candidates consistently" {
+  let a = @moonballot.Ballot::new(["A"], 2).unwrap()
+  let b = @moonballot.Ballot::new(["B", "C"], 1).unwrap()
+  let e = @moonballot.Election::new(["A", "B", "C"], [a, b]).unwrap()
+  assert_eq(e.pairwise(), [[0, 2, 2], [1, 0, 1], [1, 0, 0]])
+}
