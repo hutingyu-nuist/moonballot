@@ -1,0 +1,1 @@
+# Security and privacy`n`nMoonBallot processes aggregate rankings only. It stores no voter identities or network state. It is not a secure voting system and must not be used for legally binding elections without independent review. Input bounds reduce resource risk but are not a substitute for process-level quotas.
